@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #181818;
+}
+h1 { font-family: 'orkneyregular', Arial, sans-serif; }
+h2 { font-family: 'orkneyregular', Arial, sans-serif; }
+h3 { font-family: 'orkneyregular', Arial, sans-serif; }
+h4 { font-family: 'orkneyregular', Arial, sans-serif; }
+h5 { font-family: 'orkneyregular', Arial, sans-serif; }
+p { font-family: 'orkneyregular', Arial, sans-serif; }
+strong, b { font-family: 'orkneybold', Arial, sans-serif; }
+#main-container {
+    padding-top: 16px;
+    width: 90%;
+    margin: auto;
+}
+@font-face {
+    font-family: 'orkneybold';
+    src: url('orkney_bold-webfont.woff2') format('woff2'),
+         url('orkney_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'orkneylight';
+    src: url('orkney_light-webfont.woff2') format('woff2'),
+         url('orkney_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'orkneymedium';
+    src: url('orkney_medium-webfont.woff2') format('woff2'),
+         url('orkney_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'orkneyregular';
+    src: url('orkney_regular-webfont.woff2') format('woff2'),
+         url('orkney_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
